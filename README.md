@@ -27,7 +27,9 @@ Useful for monorepos or microservice-based setups where each service runs indepe
 Clone the repo:
 
 git clone https://github.com/Javlon-M/pm2-service.git
+
 cd pm2-service
+
 npm install
 
 🚀 Usage
@@ -51,6 +53,7 @@ module.exports = [
 2. Start Services
 
 npm run compile
+
 npm run start
 
 This runs src/index.js which uses PM2 to boot all services.
